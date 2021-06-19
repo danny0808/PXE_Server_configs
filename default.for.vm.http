@@ -1,0 +1,8 @@
+default menu.c32
+prompt 0
+timeout 30
+MENU TITLE skt-centos-expert PXE Menu
+LABEL CenOS7.x86_64
+MENU LABEL CentOS7.x86_64
+KERNEL vmlinuz
+APPEND initrd=initrd.img inst.repo=http://192.168.56.101/centos/7.9 inst.ks=http://192.168.56.101/centos/7.9/centos7.cfg
